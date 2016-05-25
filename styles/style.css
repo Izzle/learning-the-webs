@@ -1,12 +1,24 @@
 html {
-	background-color: #F4F3EE;
+	background-color: #BCB8B1;
 	font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
 }
 
+body {
+	background-color: #F4F3EE;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0 1.4em 1.4em 1.4em;
+	border: .2em solid black;
+}
+
 h1 {
 	font-size: 300%;
+	margin: 0;
+	padding: 1em 0;
+	/* text-shadow: 1px 1px 1px black; */
+	/* I feel that text-shadow looks a bit tacky */
 }
 
 h1, h2 {
@@ -44,4 +56,10 @@ a:visited {
 
 a:hover { /* Pseudo class selector */
 
+}
+
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
