@@ -1,3 +1,47 @@
-p {
-	color: blue;
+html {
+	background-color: #F4F3EE;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	color: #463F3A;
+}
+
+p, li { /* element selector */
+	color: #8A817C;
+	line-height: 2; /* increase readability*/
+	letter-spacing: 1px;
+}
+
+.my_class { /* class selector */
+
+}
+
+.note {
+	background-color: #BCB8B1;
+}
+#my_id { /* id selector */
+
+}
+
+a {
+
+}
+
+a:visited {
+	color: #E0AFA0;
+}
+
+a:hover { /* Pseudo class selector */
+
 }
