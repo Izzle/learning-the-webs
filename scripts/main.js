@@ -3,9 +3,13 @@
 */
 
 // this is a line comment
-var iceCream = 'chocolate';
-if (iceCream === 'chocolate') {
-	alert('Yay, I love chocolate ice cream!');
-} else {
-	alert('Awww, but chocolate is my favorite...');
+var myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+	var mySrc = myImage.getAttribute('src');
+	if(mySrc === 'images/alliance_logo.png') {
+		myImage.setAttribute ('src','images/horde_logo.png');
+	} else {
+		myImage.setAttribute ('src','images/alliance_logo.png');
+	}
 }
