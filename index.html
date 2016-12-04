@@ -42,9 +42,35 @@
 			<li><code>border</code> is the line that sits just outside the padding</li>
 			<li><code>margin</code> is the space around the outside of the element ('padding' around the border)</li>
 		</ul>
+
 		<h3>Goals</h3>
-		<p>It's important to have goals; and its equally - if not <em>more</em> - important to have deadlines. That's why I'm giving myself 1 year to get out of Geek Squad and to start my career in Web Development; I'll give myself until the end of 2017. Today is December 4th, 2016. As of this writing, that gives me 392 days and 23 hours to: learn web development (HTML, CSS, Javascript, etc.), build a portfolio, interview, and accept a job offer.</p>
+			<p>It's important to have goals; and its equally - if not <em>more</em> - important to have deadlines. That's why I'm giving myself 1 year to get out of Geek Squad and to start my career in Web Development; I'll give myself until the end of 2017. Today is December 4th, 2016.</p>
+			<p>As of this writing, that gives me 392 days and 23 hours to: learn web development (HTML, CSS, Javascript, etc.), build a portfolio, interview, and accept a job offer.</p>
+
+		<h2>Git basics</h2>
+		<p>After you've initialized your git repository, its pretty simple to add and save changes.</p>
+			<h3>Git Add</h3>
+			<p>The <code>git add</code> command adds changes you've made in the current working directory to a staging area. You can update existing files in the directory or add new files entirely. None of these changes are permanent until the next time you <code>commit</code> them.</p>
+			<code>git add &lt;file&gt;</code>
+			<p>Stages all changes to &lt;file&gt; to be added in the next commit.</p>
+			<code>git add *</code>
+			<p>Stages all changes in the current directory for the next commit. Be careful before using this catch-all statement.</p>
+			<code>git add -p</code>
+			<p>Starts an interactive staging session that prompts you to decide whether or not to keep a changes one chunk at a time.</p>
 		
+			<h3>Git Commit</h3>
+			<p>The <code>git commit</code> command saves all the pending changes in the staging area to a new verison of the project. Having multiple verisons allows you to experiment freely without worrying about doing irreparable damage.</p>
+			<code>git commit</code>
+			<p>This will commit the changes you've made to a new snapshot. It will also open a text editor so you can add comments detailing the work you've done. <strong>Always</strong> comment the work you do - you will thank yourself later.</p>
+			<code>git commit -m "&lt;comment&gt;"</code>
+			<p>Commits the changes you've made, but saves your &lt;comment&gt; instead of opening a text editor</p>
+			<code>git commit -a</code>
+			<p>Commits all changes in the directory.</p>
+
+			<h3>git push</h3>
+			<p>After you've made your final commits locally, you should push your changes to the branch you are working on. On a community project you'd make a pull request, but on a repo that you own (such as this website) you can simply push directly to the branch with a...</p>
+			<code>git push</code>
+			
 		<!--js files linked last so they can load after the page loads-->
 		<script src="scripts/main.js"></script>
 	</body>
