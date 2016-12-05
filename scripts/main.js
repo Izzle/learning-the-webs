@@ -13,3 +13,5 @@ myImage.onclick = function() {
 		myImage.setAttribute ('src','images/alliance_logo.png');
 	}
 }
+
+console.log("test")
