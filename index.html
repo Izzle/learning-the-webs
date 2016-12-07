@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+		<!-- Font Awesome Icons -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald' rel='stylesheet' type='text/css'>
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
 		<title>My test page</title>
@@ -73,6 +77,12 @@
 		<code>color: black&#59;</code>
 		<p>Color can also be expressed with hex code. Just as the Decimal system is a base-10 number system (ranging from 0-9) - Hexidecimal is a base-16 number system that uses letters to denote the last 6 digits (A=11, B=12.. F=16); you can read more about hexidecimal <a href="https://en.wikipedia.org/wiki/Hexadecimal">here</a>. Hex uses an RGB color system of 6 digits to represent color where each pair represents a color. For example, 0 represents the complete absence of color (black) and F represents the purest form of a color (red, green, or blue).</p>
 		<code>#<span class="red">00</span><span class="green">00</span><span class="blue">00</span></code>
+		<p>Another way you can represent color in CSS is with RGB values. The RGB for black is</p>
+		<code>rgb(0, 0, 0)</code>
+		<p>And the RGB value for white is</p>
+		<code>rgb(<span class="red">255</span>, <span class="green">255</span>, <span class="blue">255</span>)</code>
+		<p>Instead of using 6 hexidecimal digits like you did with hex color, when using RGB you specify each color's brightness with a number ranging from 0 to 255.</p>
+		<p>When you used hexidecimal for color, we used two base-16 numbers for each color. Doing the math, 16 times 16 gives us 256 different variations. Using RGB, which starts counting from zero, we have the same number of possible values for color.</p>
 
 
 		<h3>Goals</h3>

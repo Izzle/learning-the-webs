@@ -44,11 +44,11 @@ p, li { /* element selector */
 }
 
 .blue {
-	color: #0F0;
+	color: #00F;
 }
 
 .green {
-	color: #00F;
+	color: #0F0;
 }
 
 .note {
