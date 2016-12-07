@@ -39,6 +39,18 @@ p, li { /* element selector */
 
 }
 
+.red {
+	color: #F00;
+}
+
+.blue {
+	color: #0F0;
+}
+
+.green {
+	color: #00F;
+}
+
 .note {
 	background-color: #BCB8B1;
 }
