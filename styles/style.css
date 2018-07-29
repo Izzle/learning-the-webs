@@ -1,3 +1,9 @@
+:root {
+	/* the :root element is the container for the
+	   entire HTML document. Similar to how the html
+	   element is a container for the body element. */
+}
+
 html {
 	background-color: #BCB8B1;
 	font-size: 100%;
