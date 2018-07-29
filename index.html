@@ -34,7 +34,7 @@
 			<li>Profit</li>
 		</ol>
 
-		<h2>Resources</h2>
+		<h2 id="resources-list">Resources</h2>
 		<p>Here is a list of resources for learning web development</p>
 		<ul>
 			<li><a href="https://alistapart.com">A List Apart</a></li>
@@ -92,6 +92,14 @@
 		<p>Instead of using 6 hexidecimal digits like you did with hex color, when using RGB you specify each color's brightness with a number ranging from 0 to 255.</p>
 		<p>When you used hexidecimal for color, we used two base-16 numbers for each color. Doing the math, 16 times 16 gives us 256 different variations. Using RGB, which starts counting from zero, we have the same number of possible values for color.</p>
 
+		<h3>Anchor Tags</h3>
+		<p>Links are used to traverse all over the <i>Internet Super Highway</i>. Whether that it to other websites entirely, other pages on the website you're viewing, or to jump to different sections of the page you are currently viewing links are what make the internet work.</p>
+		<p>You can link to other parts of your page using an ID.
+		<code>&lt;a href="#resources-list"&gt;Jump to Resources&lt;/a&gt;</code></p>
+		<p><a href="#resources-list">Jump to Resources</a></p>
+		<p>You can link to other pages on your website by listing the directory path to it from the current document, but that is old hat. What's really cool is that you can use the <code>target</code> attribute to tell the browser to open the link in another tab! This is done simply by adding <code>target="_blank"</code> to your anchor tag.</p>
+		<a href="https://google.com" target="_blank">Leave to Google</a>
+
 
 		<h3>Goals</h3>
 		<h3 id="countDown"></h3>
@@ -100,6 +108,7 @@
 
 		<h3>Tips and Tricks</h3>
 		<p>How to track the cursor in the browser: <code>onmousemove = function(e){console.log("mouse location:", e.clientX, e.clientY)}</code></p>
+		
 
 		<a href="content/jQueryPlayground.html">Page 1: jQuery Playground</a>
 		<br>
