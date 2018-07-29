@@ -99,6 +99,17 @@
 		<code>--penguin-skin: gray;</code>
 		<p>After you've created your variable, you can assign its value to any CSS property by referencing the name and wrapping it in a <b>var( )</b> like so:</p>
 		<code>background: var(--penguin-skin);</code>
+		<p>You can attach a fallback CSS property value that the page will revert to if it is unable to get your variable to work. It could be that an older browser doesn't support CSS variables or perhaps the device you are viewing it on doesn't support the value you gave your variable. Here's how to do that:</p>
+		<code>background: var(--penguin-skin, black);</code>
+		<p>Due to the cascading nature of CSS, when you use your variable inside of an element it will become available to any element nested within the original. Because of this, <b>CSS variables are often defined in the :root element</b>. By creating variables inside :root, they become available throughout the entire web page.</p>
+<code>
+<pre>:root {
+      --main-color: red;
+      --secondary-color: black;
+      --tertiary-color: gray;
+    }
+</pre>
+</code>
 
 		<h3>Anchor Tags</h3>
 		<p>Links are used to traverse all over the <i>Internet Super Highway</i>. Whether that it to other websites entirely, other pages on the website you're viewing, or to jump to different sections of the page you are currently viewing links are what make the internet work.</p>
