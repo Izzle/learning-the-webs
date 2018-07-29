@@ -13,6 +13,7 @@
 		<title>Learning the Web</title>
 	</head>
 	<body>
+	<main>
 	<div class="row">
 		<h1>Reboot</h1>
 		<h2>Learning Web Development Again</h2>
@@ -20,6 +21,7 @@
 		<p>This is my test website for teaching myself web development. Currently I work at <a href="https://www.geeksquad.com">Geek Squad</a> as an Advanced Repair Agent: I fix computers. And, while I do enjoy my job and love my coworkers, there is a limit to how much you can learn about computer repair. </p>
 		<p><strong>Growth</strong> is an important part of any profession and unfortunately the skill-ceiling of computer repair can be reached rather quickly. I've realized what I really enjoy is learning; I always want to be able to improve and learn. And web development is not only a broad field, but one of the fastest changing industries in the world. So here is my test page, the first step in a journey towards a new chapter in my life.</p>
 	</div>
+	</main>
 		<ul> 
 			<li>This is an unordered list</li>
 			<li>It is denoted by <code>ul</code></li>
@@ -91,6 +93,12 @@
 		<code>rgb(<span class="red">255</span>, <span class="green">255</span>, <span class="blue">255</span>)</code>
 		<p>Instead of using 6 hexidecimal digits like you did with hex color, when using RGB you specify each color's brightness with a number ranging from 0 to 255.</p>
 		<p>When you used hexidecimal for color, we used two base-16 numbers for each color. Doing the math, 16 times 16 gives us 256 different variations. Using RGB, which starts counting from zero, we have the same number of possible values for color.</p>
+
+		<h3>CSS Variables</h3>
+		<p>To create a CSS variable, just give it a <b>name</b> with <b>two dashes</b> in front of it and assign it a <b>value</b> like this:</p>
+		<code>--penguin-skin: gray;</code>
+		<p>After you've created your variable, you can assign its value to any CSS property by referencing the name and wrapping it in a <b>var( )</b> like so:</p>
+		<code>background: var(--penguin-skin);</code>
 
 		<h3>Anchor Tags</h3>
 		<p>Links are used to traverse all over the <i>Internet Super Highway</i>. Whether that it to other websites entirely, other pages on the website you're viewing, or to jump to different sections of the page you are currently viewing links are what make the internet work.</p>
